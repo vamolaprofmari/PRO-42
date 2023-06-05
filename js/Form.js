@@ -7,7 +7,7 @@ class Form {
   }
 
   setElementsPosition() {
-    tthis.titleImg.position(width / 2 -600 , height / 2 -200);
+    this.titleImg.position(width / 2 -600 , height / 2 -200);
     this.input.position(width / 2 , height / 2 +200 );
     this.playButton.position(width / 2 , height / 2 +300);
     this.greeting.position(width / 2 - 300, height / 2 - 100);
